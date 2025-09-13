@@ -16,7 +16,7 @@ main().then(()=>{
     console.log("Database is connected");
 }).catch((err)=>console.log(err));
 app.get("/",(req,res)=>{
-    res.send("root");
+    res.send("Backends is working ");
 })
 app.use('/api/v1/lead',leadRoute);
 
